@@ -1,6 +1,6 @@
 {
   "meta": {
-    "name": "dailypay-dark",
+    "name": "dailycode-dark",
     "scheme": "dark" // must be "light" or "dark"
   },
   "themeValues": {
@@ -14,7 +14,7 @@
       "ltblue": "#2A5AA8",
       "purple": "#DA72B8",
       "pink": "#E391C3",
-      "app__bg0": "#1B202B",
+      "app__bg0": "darken(#1B202B, 2%)",
       "toolbar__bg0": "@app__bg0",
       "toolbar__bg1": "darken(@app__bg0, 4%)",
       "toolbar__bg2": "lighten(@toolbar__bg1, 6%)",
@@ -43,7 +43,7 @@
       ".text-color": "#C2D4FF",
       "text-selected": "@.text-color",
       "text-normal": "@.text-color",
-      "text-secondary": "fade(@.text-color, 60%)",
+      "text-secondary": "@.text-color",
       "text-disabled": "fade(@.text-color, 40%)",
       "text-accent": "@.text-color",
       "text-inverse": "@app__bg0",
@@ -59,7 +59,7 @@
       "primary-bg": "fade(@orange, 20%)",
       "primary-hover": "fade(@orange, 60%)",
       "success-border":"fade(@orange, 20%)",
-      "success-bg": "fade(@orange, 30%)",
+      "success-bg": "fade(@orange, 20%)",
       "success-hover": "fade(@orange, 75%)",
       "warning-border": "fade(@orange, 20%)",
       "warning-bg": "fade(@orange, 20%)",
@@ -105,7 +105,7 @@
       "terminal__repo-branch-color": "violet",
       "terminal__repo-tag-color": "lightcoral",
       "terminal__repo-upstream-color": "yellowgreen",
-      "terminal__background": "#000000",
+      "terminal__background": "darken(@app__bg0, 4%)",
       "terminal__cursor": "#FFFFFF",
       "terminal__cursorAccent": "#000000",
       "terminal__foreground": "#FFFFFF",
